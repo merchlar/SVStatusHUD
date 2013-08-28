@@ -33,7 +33,7 @@
 - (void)registerNotifications;
 - (void)positionHUD:(NSNotification*)notification;
 
-- (void)dismiss;
+//- (void)dismiss;
 
 @end
 

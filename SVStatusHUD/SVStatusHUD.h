@@ -14,5 +14,6 @@
 + (void)showWithImage:(UIImage*)image;
 + (void)showWithImage:(UIImage*)image status:(NSString*)string;
 + (void)showWithImage:(UIImage*)image status:(NSString*)string duration:(NSTimeInterval)duration;
-
+- (void)dismiss;
++ (SVStatusHUD*)sharedView;
 @end
